@@ -1,0 +1,19 @@
+.mobile-warning {
+  display: none;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #f5c6cb;
+  margin: 20px;
+}
+
+@media (min-width: 768px) {
+  .mobile-warning {
+    display: block;
+  }
+
+  main {
+    display: none;
+  }
+}
