@@ -1,10 +1,15 @@
 @media (max-width: 767px) {
 
+  /* :root{
+    --color-red: #00DF67;
+  } */
+
   body {
     padding: 0%;
     margin: 0%;
     font-family: "Nunito", sans-serif;
-    font-size: 1.2rem;
+    /* font-size: clamp(0.75rem, 50vw, 1.2rem); */
+    font-size: 1.2rem
   }
 
   /* main{
@@ -48,6 +53,7 @@
 
   .saldoAtual li:first-of-type {
     background-color: #3DA2FF;
+    color: white;
   }
 
   .saldoAtual li {
@@ -62,6 +68,7 @@
 
   .saldoAtual h4 {
     margin: 1.5rem 0rem 0rem 0rem;
+    padding: 0;
   }
 
   .saldoAtual h3 {
@@ -76,6 +83,7 @@
 
   .headerUltimosLancamentos h5 {
     margin: 0;
+    padding: 0;
   }
 
   .headerUltimosLancamentos button {
@@ -87,27 +95,125 @@
   }
 
   .ultimosLancamentos {
-    padding: 1.5rem 1rem 1.5rem 1rem;
-    background-color: tomato;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0rem;
   }
 
   .ultimosLancamentos ul {
-    padding: 0;
     list-style-type: none;
+    padding: 0rem;
+    margin-bottom: 0rem;
   }
 
   .ultimosLancamentos li{
-    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
     height: 5rem;
     background-color: #D9D9D9;
     color: black;
     border-radius: 0.5rem;
     margin: 0rem 0rem 0.5rem 0rem;
+    padding: 0.75rem
   }
 
-  .ultimosLancamentos h7, h5, h4{
+  .ultimosLancamentos li:last-of-type{
+    margin-bottom: 0rem;
+  }
+
+  .ultimosLancamentos h6, h5, h4{
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+  }
+
+  .ultimosLancamentos i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .headerEconomiaMensal{
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .headerEconomiaMensal p{
     margin: 0;
     padding: 0;
   }
 
+  .economiaMensal{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  .economiaMensal span{
+    font-size: 1rem;
+    color: white;
+}
+
+.infoGlobal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #170072;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+  .infoGlobal h4, h5{
+    /* font-size: 0.8rem; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .graficoEconomia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 0.55rem;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+  }
+
+  .infoEconomia{
+    width: 50%;
+    color: white;
+  }
+
+  .blocoGeral{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .geralReceita, .geralDespesa{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bloco:first-of-type{
+    background-color: #00DF67;
+  }
+
+  .bloco{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 0.5rem;
+    background-color: #FF0000;
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+
+  .receita, .despesa{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0.5rem;
+    font-size: 1rem;
+  }
 }
