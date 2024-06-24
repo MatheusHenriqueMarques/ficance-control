@@ -1,19 +1,21 @@
-.mobile-warning {
+.msg{
   display: none;
-  background-color: #f8d7da;
-  color: #721c24;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #f5c6cb;
-  margin: 20px;
 }
 
 @media (min-width: 768px) {
-  .mobile-warning {
-    display: block;
-  }
 
   main {
     display: none;
+  }
+
+  body{
+    background-color: #170072;
+  }
+
+  body .msg{
+    display: block;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
   }
 }

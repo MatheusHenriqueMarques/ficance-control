@@ -8,18 +8,13 @@
     padding: 0%;
     margin: 0%;
     font-family: "Nunito", sans-serif;
-    /* font-size: clamp(0.75rem, 50vw, 1.2rem); */
     font-size: 1.2rem
   }
 
-  /* main{
-    margin: 0.8rem 0.8rem 0rem 0.8rem;
-  } */
-
   .header {
-    margin: 0rem 0.8rem 0rem 0.8rem;
     display: flex;
     align-items: center;
+    margin: 0rem 0.8rem 0rem 0.8rem;
   }
 
   .header p {
@@ -29,7 +24,6 @@
   }
 
   .header i {
-    padding: 1rem;
     font-size: 1.8rem;
     display: flex;
     justify-content: start;
@@ -137,7 +131,7 @@
   }
 
   .headerEconomiaMensal{
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 0cap 1rem 0rem 1rem;
   }
 
   .headerEconomiaMensal p{
@@ -167,7 +161,6 @@
 }
 
   .infoGlobal h4, h5{
-    /* font-size: 0.8rem; */
     margin: 0;
     padding: 0;
   }
@@ -176,7 +169,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid white 0.55rem;
+    border: solid white 0.8rem;
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
@@ -197,7 +190,7 @@
     flex-direction: row;
   }
 
-  .bloco:first-of-type{
+  .geralReceita .bloco{
     background-color: #00DF67;
   }
 
@@ -215,5 +208,31 @@
     margin: 0.5rem 0rem 0rem 0rem;
     padding: 0rem 0rem 0rem 0.5rem;
     font-size: 1rem;
+  }
+
+  .footer{
+    background-color: #D9D9D9;
+    padding: 0.5rem;
+  }
+
+  .footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.2rem;
+    font-size: 0.75rem;
+  }
+
+  .footer li i{
+    font-size: 2rem;
+    color: #170072;
   }
 }
