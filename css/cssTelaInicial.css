@@ -1,9 +1,4 @@
 @media (max-width: 767px) {
-
-  /* :root{
-    --color-red: #00DF67;
-  } */
-
   body {
     padding: 0;
     margin: 0;
@@ -99,7 +94,7 @@
     margin-bottom: 0rem;
   }
 
-  .ultimosLancamentos li{
+  .ultimosLancamentos li {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -113,59 +108,62 @@
     padding: 0.75rem
   }
 
-  .ultimosLancamentos li:last-of-type{
+  .ultimosLancamentos li:last-of-type {
     margin-bottom: 0rem;
   }
 
-  .ultimosLancamentos h6, h5, h4{
+  .ultimosLancamentos h6,
+  h5,
+  h4 {
     justify-content: start;
     align-items: start;
     margin: 0;
   }
 
-  .ultimosLancamentos i{
+  .ultimosLancamentos i {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
   }
 
-  .headerEconomiaMensal{
+  .headerEconomiaMensal {
     padding: 0cap 1rem 0rem 1rem;
   }
 
-  .headerEconomiaMensal p{
+  .headerEconomiaMensal p {
     margin: 0;
     padding: 0;
   }
 
-  .economiaMensal{
+  .economiaMensal {
     display: flex;
     justify-content: space-between;
     padding: 0rem 1rem 1rem 1rem;
   }
 
-  .economiaMensal span{
+  .economiaMensal span {
     font-size: 1rem;
     color: white;
-}
+  }
 
-.infoGlobal{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #170072;
-  border-radius: 1rem;
-  width: 100%;
-  padding: 1.5rem;
-}
+  .infoGlobal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #170072;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+  }
 
-  .infoGlobal h4, h5{
+  .infoGlobal h4,
+  h5 {
     margin: 0;
     padding: 0;
   }
 
-  .graficoEconomia{
+  .graficoEconomia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,26 +173,27 @@
     border-radius: 50%;
   }
 
-  .infoEconomia{
+  .infoEconomia {
     width: 50%;
     color: white;
   }
 
-  .blocoGeral{
+  .blocoGeral {
     display: flex;
     flex-direction: column;
   }
 
-  .geralReceita, .geralDespesa{
+  .geralReceita,
+  .geralDespesa {
     display: flex;
     flex-direction: row;
   }
 
-  .geralReceita .bloco{
+  .geralReceita .bloco {
     background-color: #00DF67;
   }
 
-  .bloco{
+  .bloco {
     width: 10vw;
     height: 10vw;
     border-radius: 0.5rem;
@@ -202,7 +201,8 @@
     margin: 0.5rem 0rem 0rem 0rem;
   }
 
-  .receita, .despesa{
+  .receita,
+  .despesa {
     display: flex;
     flex-direction: column;
     margin: 0.5rem 0rem 0rem 0rem;
@@ -210,7 +210,7 @@
     font-size: 1rem;
   }
 
-  .footer{
+  .footer {
     background-color: #D9D9D9;
     padding: 0.5rem;
     position: fixed;
@@ -218,7 +218,7 @@
     width: 96%;
   }
 
-  .footer ul{
+  .footer ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -226,7 +226,7 @@
     margin: 0;
   }
 
-  .footer li{
+  .footer li {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -234,7 +234,7 @@
     font-size: 0.75rem;
   }
 
-  .footer li i{
+  .footer li i {
     font-size: 2rem;
     color: #170072;
   }

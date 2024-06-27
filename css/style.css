@@ -1,4 +1,4 @@
-.msg{
+.msg {
   display: none;
 }
 
@@ -8,11 +8,11 @@
     display: none;
   }
 
-  body{
+  body {
     background-color: #170072;
   }
 
-  body .msg{
+  body .msg {
     display: block;
     color: white;
     font-size: 4rem;

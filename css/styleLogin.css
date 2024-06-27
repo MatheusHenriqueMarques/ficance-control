@@ -28,7 +28,7 @@
     margin: 2rem 0rem;
   }
 
-  .divImg img{
+  .divImg img {
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -83,18 +83,18 @@
     cursor: pointer;
   }
 
-  .optionsLogin p{
+  .optionsLogin p {
     display: flex;
     justify-content: center;
     font-size: large;
   }
 
-  .linhaCardsLogin{
+  .linhaCardsLogin {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .cardLogin{
+  .cardLogin {
     display: flex;
     justify-content: center;
     align-items: center;
